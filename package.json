@@ -1,0 +1,21 @@
+{
+  "name": "@dvgis/dc-mapv",
+  "version": "1.0.0",
+  "description": "DC-Mapv is a product integrated with dc-sdk and baidu Mapv. It is mainly used to display big data in 3D scenes.",
+  "main": "index.js",
+  "repository": "https://github.com/Digital-Visual/dc-mapv.git",
+  "homepage": "http://dc.dvgis.cn",
+  "keywords": [
+    "3D",
+    "webgl",
+    "map",
+    "globe",
+    "cesium",
+    "heatmap"
+  ],
+  "author": "Caven Chen <cavencj@gmail.com>",
+  "license": "BSD 3-Clause",
+  "peerDependencies": {
+    "@dvgis/dc-sdk": ">=1.6.0"
+  }
+}
