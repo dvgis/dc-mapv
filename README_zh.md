@@ -84,12 +84,6 @@ module.exports = {
 |   ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_grid_d.gif)   | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_honeycomb.png)  | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_honeycomb_d.gif) | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_polyline.png) |
 | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_polyline_d.gif) | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_polyline_i.png) |                                                                                                                |
 
-<style>
- img{
-   width:200px;
- }
-</style>
-
 [More>>](http://dc.dvgis.cn/#/examples)
 
 ## Copyright statement
