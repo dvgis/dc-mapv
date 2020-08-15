@@ -3,18 +3,19 @@
   "version": "2.0.0",
   "description": "DC-Mapv is a product integrated with dc-sdk and baidu Mapv. It is mainly used to display big data in 3D scenes.",
   "main": "index.js",
-  "repository": "https://github.com/Digital-Visual/dc-mapv.git",
-  "homepage": "http://dc.dvgis.cn",
+  "repository": "https://github.com/dvgis/dc-mapv.git",
+  "author": "Caven Chen <cavencj@gmail.com>",
+  "license": "Apache 2.0",
+  "homepage": "https://www.dvgis.cn",
   "keywords": [
     "3D",
     "webgl",
     "map",
     "globe",
     "cesium",
+    "dc-sdk",
     "mapv"
   ],
-  "author": "Caven Chen <cavencj@gmail.com>",
-  "license": "BSD 3-Clause",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn run clean && webpack  --mode development",
@@ -29,34 +30,20 @@
     "@babel/preset-stage-2": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
-    "copy-webpack-plugin": "^5.0.2",
-    "css-loader": "^2.1.1",
     "eslint": "^5.15.3",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "file-loader": "^3.0.1",
-    "mini-css-extract-plugin": "^0.6.0",
-    "node-sass": "^4.12.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "prettier": "^1.16.4",
     "rimraf": "^2.6.3",
-    "sass-loader": "^7.1.0",
-    "strip-pragma-loader": "^1.0.0",
-    "style-loader": "^0.23.1",
-    "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
-    "webpack-glsl-loader": "^1.0.1",
     "webpack-obfuscator": "^1.8.0"
   },
-  "dependencies": {
-    "heatmap.js": "^2.0.5"
-  },
   "peerDependencies": {
-    "@dvgis/dc-sdk": ">=1.6.0"
+    "@dvgis/dc-sdk": ">=1.8.0"
   }
 }

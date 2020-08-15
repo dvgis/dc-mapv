@@ -1,10 +1,16 @@
 # DC-Mapv
 
-[**🇨🇳 中文**](./README_zh.md) | [**🇬🇧English**](./)
+<p>
+<img src="https://img.shields.io/badge/license-Apache%202-blue"/>
+<img src="https://img.shields.io/github/package-json/v/dvgis/dc-mapv?color=orange&logo=github" />
+<img src="https://img.shields.io/npm/dw/@dvgis/dc-mapv?logo=npm"/>
+</p>
+
+[**🇨🇳 中文**](./README_zh.md) | [**🇬🇧English**](./README.md)
 
 > DC-Mapv is a product integrated with dc-sdk and baidu Mapv. It is mainly used to display big data in 3D scenes.
 
-> [home](http://dc.dvgis.cn)
+> [Home Page](http://dc.dvgis.cn)
 
 ```warning
 Tips：This SDK is JS+GIS framework package. Developers need to have some front-end technology and GIS related technology
@@ -19,10 +25,8 @@ Tips：This SDK is JS+GIS framework package. Developers need to have some front-
 <script src="libs/dc-sdk/dc.base.min.js"></script>
 <!--Core Package-->
 <script src="libs/dc-sdk/dc.core.min.js"></script>
-<!--mapv Package-->
-<script src="libs/dc-sdk/dc.mapv.min.js"></script>
-<!--Plugins Package-->
-<script src="libs/dc-sdk/plugins/dc.plugins.min.js"></script>
+<!--Mapv Package-->
+<script src="libs/dc-mapv/dc.mapv.min.js"></script>
 <!--Main Style Sheet -->
 <link href="libs/dc-sdk/dc.core.min.css" rel="stylesheet" type="text/css" />
 ```
@@ -30,15 +34,14 @@ Tips：This SDK is JS+GIS framework package. Developers need to have some front-
 > NPM / YARN
 
 ```node
-   yarn add @dvgis/dc-sdk  @dvgis/dc-mapv @dvgis/dc-plugins
-   npm install @dvgis/dc-sdk  @dvgis/dc-mapv @dvgis/dc-plugins
+   yarn add @dvgis/dc-sdk  @dvgis/dc-mapv 
+   npm install @dvgis/dc-sdk  @dvgis/dc-mapv 
 ```
 
 ```js
 import 'dvgis/dc-sdk/dist/dc.base.min' //Basic Package
 import 'dvgis/dc-sdk/dist/dc.core.min' //Core Package
-import 'dvgis/dc-mapv/dist/dc.plugins.min' //mapv Package
-import 'dvgis/dc-plugins/dist/dc.plugins.min' //Plugins Package
+import 'dvgis/dc-mapv/dist/dc.mapv.min' //Mapv Package
 import 'dvgis/dc-sdk/dist/dc.core.min.css' // Main Style Sheet
 ```
 
@@ -71,18 +74,18 @@ module.exports = {
 
 ## Documentation
 
-[Cesium Api](https://cesium.com/docs/cesiumjs-ref-doc/)
-
 [Mapv Api](https://github.com/huiyan-fe/mapv/blob/master/API.md)
 
 [DC-Mapv Api](http://resource.dvgis.cn/dc-api/mapv/)
 
+[Cesium Api](https://cesium.com/docs/cesiumjs-ref-doc/)
+
 ## Demo
 
-|   ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_point.png)    |  ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_point_d.gif)   |   ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_point_i.png)   |   ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_grid.png)   |
-| :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-|   ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_grid_d.gif)   | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_honeycomb.png)  | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_honeycomb_d.gif) | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_polyline.png) |
-| ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_polyline_d.gif) | ![pic](https://raw.githubusercontent.com/Digital-Visual/dc-sdk-examples/master/images/datav/m_polyline_i.png) |                                                                                                                |
+|  ![pic](http://dc.dvgis.cn/examples/images/datav/m_point.png)  |  ![pic](http://dc.dvgis.cn/examples/images/datav/m_point_d.gif)   |  ![pic](http://dc.dvgis.cn/examples/images/datav/m_point_i.png)   |   ![pic](http://dc.dvgis.cn/examples/images/datav/m_grid.png)   |
+| :------------------------------------------------------------: | :---------------------------------------------------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------------: |
+|  ![pic](http://dc.dvgis.cn/examples/images/datav/m_grid_d.gif)   | ![pic](http://dc.dvgis.cn/examples/images/datav/m_honeycomb.png)  | ![pic](http://dc.dvgis.cn/examples/images/datav/m_honeycomb_d.gif) | ![pic](http://dc.dvgis.cn/examples/images/datav/m_polyline.png) |
+| ![pic](http://dc.dvgis.cn/examples/images/datav/m_polyline_d.gif) | ![pic](http://dc.dvgis.cn/examples/images/datav/m_polyline_i.png) |                                                                                                                |
 
 [More>>](http://dc.dvgis.cn/#/examples)
 
