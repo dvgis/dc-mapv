@@ -28,5 +28,7 @@ if (typeof window !== 'undefined' && window.DC) {
 }
 
 module.exports = {
+  version: __VERSION__,
+  compile_time: __TIME__,
   install
 }

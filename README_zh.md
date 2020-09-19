@@ -39,9 +39,9 @@ Tips：This SDK is JS+GIS framework package. Developers need to have some front-
 ```
 
 ```js
-import 'dvgis/dc-sdk/dist/dc.base.min' //基础包
-import 'dvgis/dc-sdk/dist/dc.core.min' //核心包
-import 'dvgis/dc-mapv/dist/dc.plugins.min' //Mapv 包
+import DC from  'dvgis/dc-sdk/dist/dc.base.min' //基础包
+import DcCore from 'dvgis/dc-sdk/dist/dc.core.min' //核心包
+import DcMapv from  'dvgis/dc-mapv/dist/dc.plugins.min' //Mapv 包
 import 'dvgis/dc-sdk/dist/dc.core.min.css' // 主要样式
 ```
 
